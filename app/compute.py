@@ -1,14 +1,15 @@
 def compute_npi(expression: str):
     stack = []
     elements = expression.split()
-    
+    #print(elements)
     for element in elements:
         if element.isdigit():
             stack.append(float(element))
         else:
             # Verify if we have the suffisant elemnts to integrate in the computation
+            print(stack)
             if len(stack) < 2:
-                raise ValueError('Invalid Expression')
+                raise ValueError('Invalid Expression here')
             
             # (x 'operator' y) like (x + y)
             x = stack.pop()
