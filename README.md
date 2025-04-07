@@ -34,8 +34,10 @@ Export all operations as CSV file
 
 ```bash
     id,expression,result
-    1,"5 1 2 + 4 * + 3 -",14.0
-    2,"3 4 +",7.0
+    1,5 6 +,11.0
+    2,5 7 +,12.0
+    3,16 2 +,18.0
+    4,10 12 *,120.0 
 ```
 
 
