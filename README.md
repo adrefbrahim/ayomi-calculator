@@ -7,7 +7,7 @@ AYOMI Calculator
 - Run : ```bash docker-compose up --build
 - API access : http://localhost:8000
 - Test API Endpoints via Swagger: http://localhost:8000/docs
- 
+
 # API ENDPOINTS
 
 ** POST /calculate/ ** 
@@ -17,6 +17,8 @@ AYOMI Calculator
     {
         "expression": "5 6 +"
     }
+```
+
 * Response *
 ```json
     {
