@@ -2,10 +2,10 @@ AYOMI Calculator
 
 # TOOLS / TECHNOS
 
--> FastAPI
--> SQLite
--> SQLAlchemy
--> Docker / Docker- Compose
+* FastAPI
+* SQLite
+* SQLAlchemy
+* Docker / Docker- Compose
 
 # RUN 
 
