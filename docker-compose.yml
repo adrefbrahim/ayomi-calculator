@@ -1,0 +1,8 @@
+services:
+  calculator-api:
+    build: .
+    container_name: ayomi_calculator_api
+    ports:
+      - '8000:8000'
+    volumes:
+      - .:/app
