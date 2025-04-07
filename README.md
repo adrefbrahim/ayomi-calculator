@@ -4,14 +4,15 @@ AYOMI Calculator
 # RUN 
 
 - Rquirements: Docker, Docker Compose
-- Run : ```bash docker-compose up --build
+- Run : ```bash docker-compose up --build```
 - API access : http://localhost:8000
 - Test API Endpoints via Swagger: http://localhost:8000/docs
 
 # API ENDPOINTS
 
-** POST /calculate/ ** 
-* Rquest *
+## POST /calculate/
+
+**Request**
 
 ```json
     {
@@ -19,14 +20,15 @@ AYOMI Calculator
     }
 ```
 
-* Response *
+**Response**
+
 ```json
     {
        "expression": "5 6 +",
        "result": 11.0
     }
-
-** GET /export/ ** 
+```
+## GET /export/ 
 
 Export all operations as CSV file
 
@@ -34,6 +36,7 @@ Export all operations as CSV file
     id,expression,result
     1,"5 1 2 + 4 * + 3 -",14.0
     2,"3 4 +",7.0
+```
 
 
 
