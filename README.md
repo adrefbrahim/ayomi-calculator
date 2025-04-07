@@ -1,5 +1,11 @@
 AYOMI Calculator
 
+# TOOLS / TECHNOS
+
+-> FastAPI
+-> SQLite
+-> SQLAlchemy
+-> Docker / Docker- Compose
 
 # RUN 
 
